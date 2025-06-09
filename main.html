@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Elements Showcase</title>
+</head>
+<body>
+
+  <h1>HTML Elements Example Page</h1>
+
+  <h2>1. Anchor Tag</h2>
+  <p>
+    Check out the latest news on <a href="https://www.bbc.com" target="_blank">BBC News</a>.
+  </p>
+
+  <h2>2. Image</h2>
+  <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl with laptop" width="300">
+
+  <h2>3. Audio</h2>
+  <audio controls>
+    <source src="https://www.w3schools.com/html/horse.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>4. Video</h2>
+  <video width="320" height="240" controls>
+    <source src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <h2>5. Iframe</h2>
+  <iframe src="https://www.example.com" width="400" height="300" title="Example Website"></iframe>
+
+  <h2>6. Table</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <tr>
+      <th>Product</th>
+      <th>Price</th>
+      <th>Available</th>
+    </tr>
+    <tr>
+      <td>Keyboard</td>
+      <td>$25</td>
+      <td>Yes</td>
+    </tr>
+    <tr>
+      <td>Mouse</td>
+      <td>$15</td>
+      <td>No</td>
+    </tr>
+  </table>
+
+  <h2>7. Form</h2>
+  <form action="/register" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username"><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password"><br><br>
+
+    <label for="subscription">Subscribe:</label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes"> Yes<br><br>
+
+    <label for="language">Preferred Language:</label>
+    <select id="language" name="language">
+      <option value="english">English</option>
+      <option value="spanish">Spanish</option>
+    </select><br><br>
+
+    <input type="submit" value="Register">
+  </form>
+
+  <h2>8. Description List</h2>
+  <dl>
+    <dt>Python</dt>
+    <dd>A high-level programming language used for web and software development.</dd>
+    <dt>Java</dt>
+    <dd>A versatile, object-oriented programming language used in many enterprise applications.</dd>
+    <dt>React</dt>
+    <dd>A JavaScript library for building user interfaces.</dd>
+  </dl>
+
+</body>
+</html>
